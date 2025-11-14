@@ -8,3 +8,12 @@ print(len(myName))
 print("What is your age?")
 myAge = input()
 print("You will be " + str(int(myAge) + 1) + " in a year.")
+
+name = input('What is your name')
+password = input('What is your password')
+if name == 'Mary':
+    print('Hello Mary')
+    if password == 'swordfish':
+        print('Access granted')
+    else:
+        print('Wrong password')
