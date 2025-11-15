@@ -73,3 +73,52 @@ print('My name is')
 for i in range(5):
     print('Jimmy five times (' + str(i) + ')')
 
+total = 0
+for num in range(101):
+  total = total + num
+print(total)
+
+print('My name is')
+i = 0
+while i < 5:
+    print('Jimmy Five Times (' + str(i) + ')')
+    i = i + 1
+
+for i in range(12, 16):
+    print(i)
+
+#Counting in twos
+for i in range(0, 10, 2):
+    print(i)
+
+#Counting down
+for i in range(5, -1, -1):
+    print(i)
+
+import random
+for i in range(5):
+    print(random.randint(1, 10))
+
+#End a program early with sys.exit()
+import sys
+
+while True:
+    print('Type exit to exit')
+    response = input()
+    if response == 'exit':
+        sys.exit()
+    print('You typed ' + response + '.')
+
+#def statements with parameters
+
+def hello(name):
+    print('Hello ' + name)
+    
+hello('Alice')
+hello('Bob')
+
+
+
+
+
+
