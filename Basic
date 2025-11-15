@@ -22,6 +22,13 @@ spam = 0
 if spam < 5:
     print('Hello world')
     spam = spam + 1
+
+total = 0
+for num in range(101):
+    total = total + num
+print(total)
+
+
     
 #Here is the code with a while statement
 spam = 0
