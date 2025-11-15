@@ -17,3 +17,15 @@ if name == 'Mary':
         print('Access granted')
     else:
         print('Wrong password')
+
+spam = 0
+if spam < 5:
+    print('Hello world')
+    spam = spam + 1
+    
+#Here is the code with a while statement
+spam = 0
+while spam < 5:
+    print('Hello World')
+    spam = spam + 1
+
