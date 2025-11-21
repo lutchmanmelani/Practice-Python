@@ -312,6 +312,54 @@ disposition = cat[2]
 
 print(cat)
 
+#Index
+spam = ['Zophie', 'Pooka', 'Fat-tail', 'Pooka']
+spam.index('Pooka')
+print(spam)
+
+#Adding values to Lists with the append() and insert() methods
+spam = ['cat', 'dog', 'bat']
+spam.append('moose')
+print(spam)
+
+spam = ['cat', 'dog', 'bat']
+spam.insert(1, 'chicken')
+print(spam)
+
+#Removing values form Lists with remove()
+spam = ['cat', 'bat', 'rat', 'elephant']
+spam.remove('bat')
+print(spam)
+
+#Sorting the values in a List with the sort() method
+spam = [2, 5, 3.14, 1, -7]
+spam.sort()
+print(spam)
+
+spam = ['ants', 'cats', 'dogs', 'badgers', 'elephants']
+spam.sort()
+print(spam)
+
+spam.sort(reverse=True)
+print(spam)
+
+#Sort function uses ASCIIbetical order and not alphabetical order - That is why upper case comes first
+spam = ['Alice', 'ants', 'Bob', 'badgers', 'Carol', 'cats']
+spam.sort()
+print(spam)
+
+#for regular alphabetical order use:
+spam = ['a', 'z', 'A', 'Z']
+spam.sort(key=str.lower)
+spam
+
+
+
+
+
+
+
+
 
 
 
